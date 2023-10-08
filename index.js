@@ -70,6 +70,9 @@ const RootQuery = new GraphQLObjectType({
 						name: crypto.name,
 						symbol: crypto.symbol,
 						currentPrice: crypto.current_price,
+						image:crypto.image,
+						marketCap:crypto.marketCap,
+						totalVolume:crypto.totalVolume,
 					}));
 				} catch (error) {
 					throw error;
