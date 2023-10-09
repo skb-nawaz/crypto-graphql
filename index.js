@@ -61,7 +61,7 @@ const RootQuery = new GraphQLObjectType({
 								per_page: 20,
 								page: 1,
 								sparkline: false,
-								x_cg_demo_api_key:CG-C3XNKEsyCq5P6i8hfsZSV5yY,
+								x_cg_demo_api_key:C3XNKEsyCq5P6i8hfsZSV5yY,
 							},
 						}
 					);
