@@ -71,8 +71,8 @@ const RootQuery = new GraphQLObjectType({
 						symbol: crypto.symbol,
 						currentPrice: crypto.current_price,
 						image:crypto.image,
-						marketCap:crypto.marketCap,
-						totalVolume:crypto.totalVolume,
+						marketCap:crypto.market_cap,
+						totalVolume:crypto.total_volume,
 					}));
 				} catch (error) {
 					throw error;
