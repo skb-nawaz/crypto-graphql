@@ -58,9 +58,10 @@ const RootQuery = new GraphQLObjectType({
 							params: {
 								vs_currency: 'usd',
 								order: 'market_cap_desc',
-								per_page: 10,
+								per_page: 20,
 								page: 1,
 								sparkline: false,
+								x_cg_demo_api_key:CG-C3XNKEsyCq5P6i8hfsZSV5yY,
 							},
 						}
 					);
